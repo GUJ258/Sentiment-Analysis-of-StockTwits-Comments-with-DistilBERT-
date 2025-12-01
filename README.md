@@ -10,6 +10,7 @@
 ![Strategy Plot](Sentiment_Momentum_Strategy.png)
 
 ## Project Structure
+```
 - config.py                 # Global configuration (paths, model names, parameters)
 - data_utils.py             # Utilities for loading/merging tweet data and price data
 - hf_dataset.py             # Builds HuggingFace Dataset objects for DistilBERT training
@@ -26,6 +27,7 @@
   - train_stockemo.csv      # Chronological training split for DistilBERT
   - val_stockemo.csv        # Validation split for tuning/early stopping
   - test_stockemo.csv       # Held-out test set for final model evaluation
+```
 
 ## Usage
 1. Run DistilBERT training (this will automatically create `logs/` and `results/` directories)  
