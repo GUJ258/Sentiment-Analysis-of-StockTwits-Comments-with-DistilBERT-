@@ -6,8 +6,8 @@
 - **Maximum Drawdown:** –22.37%
 
 ## Example Outputs
-![Loss Plot](Training Loss and Learning Rate.png)
-![Strategy Plot](Sentiment Momentum Strategy.png)
+![Loss Plot](Training_Loss_and_Learning_Rate.png)
+![Strategy Plot](Sentiment_Momentum_Strategy.png)
 
 ## Project Structure
 - config.py                 # Global configuration (paths, model names, parameters)
